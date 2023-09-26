@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <form style="border: 2px solid black; " action="" method="post"> 
+       <h1>Sign up</h1>
+       <label for="firstname">firstname
+       <input type="text" id="firstname" name="firstname"  minlength="3" required>
+    </label>
+       <br>
+       <label for="lastname">lastname
+       <input type="text" id="lastname" name="lastname"   minlength="3" required>
+    </label>
+       <br>
+       <label for="email">email
+       <input type="email" id="email" name="email"   minlength="3" >
+    </label>
+       <br>
+       <label for="password">password
+       <input type="password" id="password" name="password" required >
+    </label>
+       <br>
+       <label for="conformpassword">conform-password</label>
+       <input type="password" id="conformpassword" name="conformpassword" required >
+       <br>
+       <label for="age">age</label>
+       <input type="number" id="age" name="age"  min="0" max="150" required >
+       <br>
+       <label for="gender">gender</label>
+      <select  name="gender" id="gender"  required>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="others">Others</option>
+    </select>
+       <br>
+       <label for="agree">Terms and conditions:
+       <input type="checkbox" id="agree" name="agree" required>
+i agree
+    </label>
+       <br>
+       <input type="submit" value="submit">
+       
+   </form>
+
+   <form style="border: 2px solid black;" action="" method="post"> 
+    <h1>Sign in</h1>
+   
+    <label for="emaill">email</label>
+    <input type="emaill" id="emaill" name="emaill"  >
+    <br>
+    <label for="passwordd">password</label>
+    <input type="passwordd" id="passwordd" name="passwordd" required >
+    <br>
+    <input type="submit" value="submit">
+    
+</form>
+</body>
+</html>
